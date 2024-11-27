@@ -1,0 +1,50 @@
+.clock {
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: relative;
+}
+.numbers div {
+    position: absolute;
+    font-size: 30px;
+}
+
+.twelve {
+    top: 6px;
+    left: 46%;
+}
+
+.three {
+    right: 6px;
+    top: 46%;
+}
+.six {
+    bottom: 6px;
+    left: 46%;
+}
+.nine {
+    left: 6px;
+    top: 46%;
+}
+.arrows{
+    position: absolute;
+    left: 49%;    
+    top: 50%;
+}
+.arrows div {
+    width: 5px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 50%;
+    transform-origin: bottom;
+    border-radius: 90% 0 0 0;
+}
+.arrows .hour {
+    height: 80px;
+}
+.arrows .second {
+    background-color: yellow;
+}
